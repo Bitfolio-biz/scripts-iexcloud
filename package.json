@@ -1,0 +1,38 @@
+{
+  "name": "scripts-iexcloud",
+  "version": "1.0.0",
+  "description": "IEX API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitfolio-biz/scripts-iexcloud.git"
+  },
+  "keywords": [
+    "iex",
+    "api",
+    "stock",
+    "quotes"
+  ],
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bitfolio-biz/scripts-iexcloud/issues"
+  },
+  "homepage": "https://github.com/Bitfolio-biz/scripts-iexcloud#readme",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.12.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41"
+  }
+}
